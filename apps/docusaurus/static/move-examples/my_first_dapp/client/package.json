@@ -1,0 +1,53 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@aptos-labs/ts-sdk": "^1.10.0",
+    "@aptos-labs/wallet-adapter-ant-design": "^2.0.0",
+    "@aptos-labs/wallet-adapter-react": "^2.1.8",
+    "@aptos-labs/wallet-adapter-core": "^3.6.0",
+    "antd": "^5.15.3",
+    "aptos": "^1.21.0",
+    "petra-plugin-wallet-adapter": "^0.4.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.4.3",
+    "web-vitals": "^3.5.2"
+  },
+  "devDependencies": {
+    "node": "^21.7.1",
+    "@testing-library/dom": "^9.3.4",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.2.2",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.30",
+    "@types/react": "^18.2.69",
+    "@types/react-dom": "^18.2.22",
+    "vite": "^5.2.6",
+    "@vitejs/plugin-react": "^4.2.1"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "eslintConfig": {
+    "extends": [
+      "vite"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
